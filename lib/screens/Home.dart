@@ -77,7 +77,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       return const Center(child: Text('Could Make Api Call'));
                     }
                     return Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
+                      mainAxisAlignment: MainAxisAlignment.start,
                       children: [
                         Convert(
                           currencies: currSnapshot.data!,

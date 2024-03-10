@@ -30,7 +30,7 @@ class _ConvertState extends State<Convert> {
           padding: const EdgeInsets.symmetric(horizontal: 24),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
-            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.start,
             children: [
               Container(
                 width: MediaQuery.of(context).size.width,
@@ -50,8 +50,8 @@ class _ConvertState extends State<Convert> {
                   padding:
                       const EdgeInsets.symmetric(horizontal: 20, vertical: 40),
                   child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    crossAxisAlignment: CrossAxisAlignment.start,
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
                       TextField(
                         key: const ValueKey('amount'),
@@ -127,9 +127,9 @@ class _ConvertState extends State<Convert> {
                               }).toList(),
                             ),
                           ),
-                          const SizedBox(height: 20),
                         ],
                       ),
+                      const SizedBox(height: 20),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
